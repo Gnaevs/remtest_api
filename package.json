@@ -1,0 +1,22 @@
+{
+  "name": "rem_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-ws": "^4.0.0",
+    "mysql": "^2.18.1",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
