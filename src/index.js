@@ -32,6 +32,7 @@ appWS.use(function (req, res, next) {
 //rutas
 appWS.use(require('./rutas/usuarios'));
 require('./video_procesador')(appWS);
+appWS.use(require('./rutas/files'));
 
 
 
